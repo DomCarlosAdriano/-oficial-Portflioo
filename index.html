@@ -5,15 +5,146 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Roboto:wght@700&display=swap"
+    rel="stylesheet">
+
+
+  <title>Dom Carlos Adriano Portifolio </title>
 </head>
 
 <body>
 
-  <h1>EM BREVE COLOCAREI MEU PORTIFOLIO COM MEUS PROJETOS/CURRICULO AQUI!</h1>
+  <div class="wrap">
+
+    <header>
+
+      <div class="logo"> Dom Carlos </div>
+
+      <nav class="menu">
+        <ul>
+          <!-- <li><a href="#home">Home</a></li> -->
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">CV</a></li>
+        </ul>
+      </nav>
+
+      <div class="contato">
+        <button class="enviar-email"><img src="./img/github.svg" alt="">Github</button>
+        <button class="go-github"><img src="./img/email.svg" alt="">Contact-me</button>
+      </div>
+
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="descricao">
+          <p>Hello, i am</p>
+          <h1>Dom_Carlos_Adriano</h1>
+          <p>Junior Front-End Developer</p>
+          <div class="butao">
+            <button><a href="">Contact-Me</a> </button>
+            <button><a href="">Download CV</a> </button>
+          </div>
+
+        </div>
+
+        <img class="foto" src="./img/photo.jpeg" alt="">
+
+      </section>
+
+      <section id="about">
+        <div class="aboutMe">
+          <h2>AboutMe( )</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto consequatur provident, distinctio quos
+              quis
+              culpa magnam rerum ratione veritatis natus. Illo laborum accusamus labore ipsam expedita officiis,
+              voluptatem necessitatibus alias.</p>
+        </div>
+        <div class="hire">
+          <div class="hire-dev">
+            <p>Junior Front-End Developer <br> <a href="">PROJECTS</a></p>
+            <p> &#60;&#47;&#62; </p>
+
+          </div>
+          <div class="hire-freelancer">
+            <p>Freelancer<br><a href="">HIRE-ME!</a></p>
+            <p> &#123;&#125; </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Skills( )</h2>
+        <div class="skill-list">
+          <img src="./img/skills/javascript.png" alt="">
+          <img src="./img/skills/html5.png" alt="">
+          <img src="./img/skills/css3.png" alt="">
+          <img src="./img/skills/github.png" alt="">
+          <img src="./img/skills/git.png" alt="">
+          <img src="./img/skills/nodejs-.png" alt="">
+          <img src="./img/skills/react.png" alt="">
+          <img src="./img/skills/typescript.png" alt="">
+          <img src="./img/skills/sass.png" alt="">
+
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <h2>Projects( )</h2>
+        <div id="projetos"></div>
+      </section>
+
+      <section id="cursos">
+        <h2>Cursos( )</h2>
+        <div class="curso-list">
+
+
+          <div><img src="./img/cursos/insideidiomas.png" alt="">
+            <p>English Level B2</p>
+          </div>
+
+          <div><img src="./img/cursos/cursoEmVideo.png" alt="">
+            <p>JavaScript e ECMAScript para Iniciantes</p>
+          </div>
+
+          <div><img src="./img/cursos/harvard.png" alt="">
+            <p>CS50's Introduction to Computer Science </p>
+          </div>
+
+          <div><img src="./img/cursos/vidafullstack.png" alt="">
+            <p>Front-end Curso </p>
+          </div>
+
+          <div><img src="./img/cursos/serfrontend.jpg" alt="">
+            <p>Curso de JavaScript Completo do iniciante ao mestre (2022) </p>
+          </div>
+
+
+
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>© Dom Carlos Adriano. 2023 All rigths reserved</p>
+    </footer>
+
+  </div>
+
+
 
   <script src="./script.js"></script>
+
 </body>
 
 </html>
